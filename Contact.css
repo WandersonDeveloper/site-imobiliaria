@@ -2,9 +2,13 @@
   min-height: 828px;
 }
 
+.u-section-1 .u-text-1 {
+  margin: 74px 674px 0 85px;
+}
+
 .u-section-1 .u-form-1 {
   height: 338px;
-  margin: 126px 542px 0 28px;
+  margin: 0 542px 60px 28px;
 }
 
 .u-section-1 .u-form-group-1 {
@@ -27,32 +31,16 @@
   font-size: 1.25rem;
 }
 
-.u-section-1 .u-image-1 {
-  width: 512px;
-  height: 340px;
-  margin: -404px 22px 0 auto;
-}
-
-.u-section-1 .u-text-1 {
-  margin: -340px 660px 60px 99px;
-}
-
 @media (max-width: 1199px) {
-  .u-section-1 .u-form-1 {
-    width: 570px;
-    margin-left: 0;
-    margin-right: 370px;
-  }
-
-  .u-section-1 .u-image-1 {
-    margin-top: 20px;
-    margin-right: 370px;
-    margin-left: 0;
-    margin-bottom: initial;
-  }
-
   .u-section-1 .u-text-1 {
     margin-right: 559px;
+    margin-left: 99px;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 570px;
+    margin-right: 370px;
+    margin-left: 0;
   }
 }
 
@@ -61,37 +49,29 @@
     min-height: 831px;
   }
 
-  .u-section-1 .u-form-1 {
-    margin-right: 150px;
-  }
-
-  .u-section-1 .u-image-1 {
-    margin-right: 208px;
-    margin-bottom: 0;
-  }
-
   .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 54px;
+    margin-right: 188px;
+    margin-left: 20px;
+  }
+
+  .u-section-1 .u-form-1 {
     margin-top: 20px;
-    margin-right: 208px;
-    margin-left: 0;
-    margin-bottom: initial;
+    margin-right: 150px;
   }
 }
 
 @media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    width: 282px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .u-section-1 .u-form-1 {
     width: 540px;
     margin-right: 0;
-  }
-
-  .u-section-1 .u-image-1 {
-    margin-right: 28px;
-  }
-
-  .u-section-1 .u-text-1 {
-    margin-right: 159px;
-    margin-bottom: 60px;
-    margin-left: 99px;
   }
 }
 
@@ -100,19 +80,13 @@
     min-height: 875px;
   }
 
+  .u-section-1 .u-text-1 {
+    width: 241px;
+    margin-top: 48px;
+  }
+
   .u-section-1 .u-form-1 {
     width: 340px;
-  }
-
-  .u-section-1 .u-image-1 {
-    width: 249px;
-    height: 166px;
-    margin-top: 80px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .u-section-1 .u-text-1 {
-    margin-right: 0;
+    margin-top: 39px;
   }
 }
